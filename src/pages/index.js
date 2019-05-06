@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Projects from "../components/projects"
 import NavBar from "../components/navBar"
 import AboutMe from "../components/aboutMe"
 import Layout from "../components/layout"
@@ -23,6 +23,7 @@ const IndexPage = () => (
     <h1>Jennifer Williams</h1>
     <p>Self-taught front end developer</p>
     <AboutMe />
+    <Projects />
   </div>
 )
 
