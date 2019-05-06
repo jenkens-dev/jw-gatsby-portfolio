@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import NavBar from "../components/navBar"
 import AboutMe from "../components/aboutMe"
-
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"

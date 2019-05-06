@@ -1,4 +1,5 @@
 import React from "react"
+import SkillsContainer from "./skillsContainer.js"
 
 const AboutMe = () => (
   <div>
@@ -10,6 +11,7 @@ const AboutMe = () => (
       not coding I enjoy reading manga, practicing Japanese, and playing board
       games.
     </div>
+    <SkillsContainer />
   </div>
 )
 
