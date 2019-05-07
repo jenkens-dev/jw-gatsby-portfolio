@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Projects from "../components/projects"
 import NavBar from "../components/navBar"
 import AboutMe from "../components/aboutMe"
+import Contact from "../components/contactPage"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -24,6 +25,7 @@ const IndexPage = () => (
     <p>Self-taught front end developer</p>
     <AboutMe />
     <Projects />
+    <Contact />
   </div>
 )
 
