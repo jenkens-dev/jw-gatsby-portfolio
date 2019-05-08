@@ -5,11 +5,12 @@ import GuessGaming from "../images/GuessingGame.png"
 import Pomodoro from "../images/PomodoroClock.png"
 import TwitchLayout from "../images/TwitchAPI.png"
 import TicTac from "../images/TicTac.png"
+import "./styles.css"
 
 const Projects = () => (
   <div>
     <h2>Projects</h2>
-    <div>
+    <div className="projectGrid">
       <img src={randomQuoteImg} />
       <img src={JavaScriptCalc} />
       <img src={GuessGaming} />
