@@ -8,12 +8,12 @@ import { FaReact } from "react-icons/fa"
 
 const SkillsContainer = () => (
   <div>
-    <FaJsSquare />
-    <FaReact />
-    <FaHtml5 />
-    <FaCss3Alt />
-    <FaGitSquare />
-    <FaGithub />
+    <FaJsSquare style={{ color: "#F0DB4F" }} />
+    <FaReact style={{ color: "#61dafb" }} />
+    <FaHtml5 style={{ color: "#E44D26" }} />
+    <FaCss3Alt style={{ color: "#1572B6" }} />
+    <FaGitSquare style={{ color: "#f14e32" }} />
+    <FaGithub style={{ color: "#24292e" }} />
   </div>
 )
 

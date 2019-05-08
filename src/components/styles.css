@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to right, #a7d3eb, #be7bff);
+}
+
+.projectGrid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+img {
+  max-width: 100%;
+}
