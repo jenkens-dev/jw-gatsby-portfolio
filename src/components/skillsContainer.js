@@ -10,7 +10,7 @@ import "./styles.css"
 
 const SkillsContainer = () => (
   <div className="skillsContainer">
-    <FlipOnHover back={<div>JavaScript</div>}>
+    <FlipOnHover size="skillSize" back={<div>JavaScript</div>}>
       <FaJsSquare className="skillsIcon" style={{ color: "#F0DB4F" }} />
     </FlipOnHover>
     <FlipOnHover back={<div>React</div>}>
