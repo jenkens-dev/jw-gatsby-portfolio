@@ -11,22 +11,24 @@ import "./styles.css"
 const SkillsContainer = () => (
   <div className="skillsContainer">
     <FlipOnHover size="skillSize" back={<div>JavaScript</div>}>
-      <FaJsSquare className="skillsIcon" style={{ color: "#F0DB4F" }} />
+      <FaJsSquare style={{ color: "#F0DB4F", height: "90px", width: "90px" }} />
     </FlipOnHover>
-    <FlipOnHover back={<div>React</div>}>
-      <FaReact className="skillsIcon" style={{ color: "#61dafb" }} />
+    <FlipOnHover size="skillSize" back={<div>React</div>}>
+      <FaReact style={{ color: "#61dafb", height: "90px", width: "90px" }} />
     </FlipOnHover>
-    <FlipOnHover back={<div>HTML5</div>}>
-      <FaHtml5 className="skillsIcon" style={{ color: "#E44D26" }} />
+    <FlipOnHover size="skillSize" back={<div>HTML5</div>}>
+      <FaHtml5 style={{ color: "#E44D26", height: "90px", width: "90px" }} />
     </FlipOnHover>
-    <FlipOnHover back={<div>CSS3</div>}>
-      <FaCss3Alt className="skillsIcon" style={{ color: "#1572B6" }} />
+    <FlipOnHover size="skillSize" back={<div>CSS3</div>}>
+      <FaCss3Alt style={{ color: "#1572B6", height: "90px", width: "90px" }} />
     </FlipOnHover>
-    <FlipOnHover back={<div>Git</div>}>
-      <FaGitSquare className="skillsIcon" style={{ color: "#f14e32" }} />
+    <FlipOnHover size="skillSize" back={<div>Git</div>}>
+      <FaGitSquare
+        style={{ color: "#f14e32", height: "90px", width: "90px" }}
+      />
     </FlipOnHover>
-    <FlipOnHover back={<div>GitHub</div>}>
-      <FaGithub className="skillsIcon" style={{ color: "#24292e" }} />
+    <FlipOnHover size="skillSize" back={<div>GitHub</div>}>
+      <FaGithub style={{ color: "#24292e", height: "90px", width: "90px" }} />
     </FlipOnHover>
   </div>
 )
