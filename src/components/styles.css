@@ -26,6 +26,7 @@ body {
   grid-row-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  height: 800px;
 }
 
 img {
@@ -53,7 +54,6 @@ img {
   transform-style: preserve-3d;
   height: 100%;
   width: 100%;
-
   position: relative;
 }
 
@@ -78,7 +78,7 @@ img {
 /* back, initially hidden pane */
 .back {
   transform: rotateY(-180deg);
-  color: #2b7a78;
+  color: #be7bff;
 }
 
 .backContent {
@@ -87,4 +87,10 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
+  background: #def2f1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
