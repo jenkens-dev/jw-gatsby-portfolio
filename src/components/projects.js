@@ -10,7 +10,7 @@ import ProjectImage from "./ProjectImage"
 
 const Projects = () => (
   <div>
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <div className="projectGrid">
       <ProjectImage
         src={randomQuoteImg}

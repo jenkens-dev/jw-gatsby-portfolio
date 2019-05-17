@@ -7,7 +7,7 @@ import { IconContext } from "react-icons"
 
 const Contact = () => (
   <div>
-    <h2>Contact Me</h2>
+    <h2 id="contact">Contact Me</h2>
     <div className="contactGrid">
       <GoMail style={{ color: "black", height: "90px", width: "90px" }} />
       <FaTwitterSquare
