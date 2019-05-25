@@ -4,11 +4,23 @@ body {
   background: #fff;
   color: #191919;
   font-family: "Proza Libre", sans-serif;
+  margin: 0;
 }
 
 .navBar {
   display: flex;
   justify-content: space-between;
+  background: #4f517d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  height: 30px;
+  line-height: 30px;
+}
+
+.navBar > a {
+  color: #fff;
 }
 
 .pageTitles {
@@ -20,6 +32,19 @@ body {
 
 .pageTitles > a {
   margin-left: 10px;
+  color: #fff;
+}
+
+#title {
+  padding-left: 15px;
+}
+
+#navContact {
+  padding-right: 15px;
+}
+
+h1 {
+  margin-top: 40px;
 }
 
 .skillsContainer {
@@ -30,6 +55,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   /* grid-template-columns: repeat(6, 1fr); */
   justify-items: center;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .skillSize {
@@ -126,11 +154,19 @@ img {
   padding: 5px;
   background: #fff;
   border: 10px solid #4f517d;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  max-width: 70%;
+  margin: auto;
 }
 
 a {
   text-decoration: none;
   color: #191919;
+}
+
+.pageGrid {
+  max-width: 80%;
+  margin: auto;
 }

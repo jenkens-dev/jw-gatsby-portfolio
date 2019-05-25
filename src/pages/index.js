@@ -11,11 +11,13 @@ import "../components/styles.css"
 const IndexPage = () => (
   <div>
     <NavBar />
-    <h1>Jennifer Williams</h1>
-    <p>Self-taught front end developer</p>
-    <AboutMe />
-    <Projects />
-    <Contact />
+    <div className="pageGrid">
+      <h1 id="top">Jennifer Williams</h1>
+      <p>Self-taught front end developer</p>
+      <AboutMe />
+      <Projects />
+      <Contact />
+    </div>
   </div>
 )
 
