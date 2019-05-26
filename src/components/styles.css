@@ -5,6 +5,7 @@ body {
   color: #191919;
   font-family: "Proza Libre", sans-serif;
   margin: 0;
+  font-size: 20px;
 }
 
 .navBar {
@@ -72,6 +73,15 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 1fr;
   grid-gap: 30px;
+}
+
+.projectGrid .backContent {
+  background: #4f517d;
+  border: 10px solid #4f517d;
+}
+
+.projectGrid .backContent a {
+  color: #fff;
 }
 
 img {
@@ -159,6 +169,7 @@ img {
   justify-items: center;
   max-width: 70%;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 a {
