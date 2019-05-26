@@ -15,73 +15,102 @@ const Projects = () => (
       <ProjectImage
         src={randomQuoteImg}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/XVZQjJ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Random Quote Generator
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/XVZQjJ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Random Quote Generator
+            </a>
+            <p>
+              Generate a random quote through an API and tweet out your favorite
+            </p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
       <ProjectImage
         src={JavaScriptCalc}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/GQRePd"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            JavaScript Calculator
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/GQRePd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              JavaScript Calculator
+            </a>
+            <p>
+              Multiply, divide, add, or subtract with this fully functional
+              JavaScript Calculator
+            </p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
       <ProjectImage
         src={GuessGaming}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/PRobBy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RBG Color Game
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/PRobBy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RBG Color Game
+            </a>
+            <p>Guess which colored square corresponds to the given rgb color</p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
       <ProjectImage
         src={Pomodoro}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/oEjayP"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Pomodoro Clock
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/oEjayP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pomodoro Clock
+            </a>
+            <p>Stay on task with this Pomodoro clock</p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
       <ProjectImage
         src={TwitchLayout}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/ypPdBR"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitch API display
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/ypPdBR"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitch API display
+            </a>
+            <p>Check to see if your favorite Twitch streamer is live</p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
       <ProjectImage
         src={TicTac}
         back={
-          <a
-            href="https://codepen.io/Taliaa/pen/GQMNbe"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tic Tac Toe Game
-          </a>
+          <div>
+            <a
+              href="https://codepen.io/Taliaa/pen/GQMNbe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tic Tac Toe Game
+            </a>
+            <p>Play Tic Tac Toe against the computer</p>
+            <p>Made with HTML, CSS, and JavaScript</p>
+          </div>
         }
       />
     </div>
