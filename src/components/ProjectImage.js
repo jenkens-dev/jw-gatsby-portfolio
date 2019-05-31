@@ -8,7 +8,7 @@ export default function ProjectImage({ src, href, alt, back }) {
       back={<div className="placeholderBack">{back}</div>}
     >
       <a href={href} target="_blank" rel="noopener noreferrer">
-        <img src={src} alt={alt} />
+        <img className="projectBorder" src={src} alt={alt} />
       </a>
     </FlipOnHover>
   )

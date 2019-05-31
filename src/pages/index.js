@@ -6,14 +6,22 @@ import AboutMe from "../components/aboutMe"
 import Contact from "../components/contactPage"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ProfilePicture from "../images/profilepicture.jpg"
 import "../components/styles.css"
 
 const IndexPage = () => (
   <div>
     <NavBar />
     <div className="pageGrid">
-      <h1 id="top">Jennifer Williams</h1>
-      <p>Self-taught front end developer</p>
+      <div className="titleGrid">
+        <div className="profilePictureWrapper">
+          <img src={ProfilePicture} />
+        </div>
+        <div className="nameHeader">
+          <h1 id="top">Jennifer Williams</h1>
+          <p>Self-taught front end developer</p>
+        </div>
+      </div>
       <AboutMe />
       <Projects />
       <Contact />
