@@ -1,6 +1,8 @@
 import React from "react"
 import SkillsContainer from "./skillsContainer.js"
 
+import "./styles.css"
+
 const AboutMe = () => (
   <div>
     <h2 id="about">About Me</h2>
